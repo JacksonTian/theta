@@ -1,0 +1,6 @@
+var theta = require('../lib/theta');
+
+var program = '(+ (+ 1 2 (- 1 2)))';
+console.log(program);
+console.log(theta.parse(program));
+console.log(theta.print(theta.parse(program)));
